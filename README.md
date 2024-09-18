@@ -66,26 +66,27 @@ Créer une application de quiz interactive avec les fonctionnalités suivantes :
 - **Tailwind CSS** : Pour le style et le design responsive.
 - **Vite.js** : Pour le processus de build rapide et efficace.
 
-## Critères d'Évaluation
+## Problèmes rencontrés
 
-Votre soumission sera évaluée sur :
+### **Fonctionnalité :** ERROR API 429 (Too Many Requests)
+J'ai rencontré une erreur de limite de requêtes API (HTTP 429) lors de l'appel à l'API Open Trivia Database. Pour contourner ce problème, j'ai mis en place une boucle de nouvelle tentative avec une temporisation exponentielle. Cependant, je pense qu'il existe des solutions plus robustes, comme l'utilisation d'un cache local ou la gestion plus fine des appels API.
 
-- **Fonctionnalité** : L'application fonctionne-t-elle comme prévu ? Toutes les fonctionnalités sont-elles correctement implémentées ?
-- **Qualité du Code** : Le code est-il bien organisé, propre, et facile à comprendre ? Utilisation appropriée des composants et hooks React.
-- **Design & UI** : L'application est-elle visuellement attrayante et professionnelle ? Le design est-il moderne et cohérent ?
-- **Responsivité** : L'application est-elle fonctionnelle et belle sur différentes tailles d'écran (bureau, tablette, mobile) ?
-- **Fonctionnalités Bonus** : Ajout de fonctionnalités supplémentaires comme la barre de progression ou des transitions animées.
+### **Qualité du Code :**
+Le code a été structuré dans un délai de 2 heures, ce qui a limité le temps disponible pour le nettoyage et l'organisation approfondie. J'ai fait de mon mieux pour respecter les bonnes pratiques de développement tout en respectant le temps imparti.
 
-## Dépôt GitHub
+### **Design & UI :**
+Le design a été réalisé en utilisant Tailwind CSS pour créer une interface moderne et épurée. J'ai utilisé les components de shadcn-ui.
 
-Créez un nouveau dépôt GitHub pour ce projet et partagez le lien du dépôt une fois la tâche terminée. Assurez-vous que votre dépôt est bien organisé et inclut tous les fichiers nécessaires avec des messages de commit significatifs.
+### **Responsivité :**
+L'application a été conçue pour être fonctionnelle et attrayante sur différentes tailles d'écran (bureau, tablette, mobile). Les utilitaires responsifs de Tailwind CSS ont été utilisés pour garantir une bonne adaptabilité.
 
-## Directives de Soumission
+### **Fonctionnalités Bonus :**
+Des fonctionnalités supplémentaires telles qu'une barre de progression en haut de l'écran et des transitions animées entre les questions ont été ajoutées pour améliorer l'expérience utilisateur.
 
-- **Dépôt GitHub** : Créez un dépôt GitHub pour ce projet.
-- **Organisation du Projet** : Assurez-vous que le dossier de projet est bien structuré et inclut un fichier `README.md` avec des instructions d'exécution.
+
+
+
 
 ---
 
-Merci de participer à ce test technique. Nous avons hâte de découvrir votre application !
 
