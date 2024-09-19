@@ -32,6 +32,20 @@ export default function QuizCard({
     }
   }, [question]);
 
+  // const shuffleArray = (array: string[]) =>
+  //   [...array].sort(() => Math.random() - 0.5);
+
+  // useEffect(() => {
+  //   if (question && question.incorrect_answers) {
+  //     const allOptions = [
+  //       ...question.incorrect_answers,
+  //       question.correct_answer,
+  //     ];
+  //     setOptions(shuffleArray(allOptions));
+  //   }
+  // }, [question]);
+
+  // Mélange de Fisher-Yates ,algo pour mélanger deux tableaux
   const shuffleArray = (array: string[]) => {
     const shuffled = [...array];
     for (let i = shuffled.length - 1; i > 0; i--) {
@@ -40,7 +54,7 @@ export default function QuizCard({
     }
     return shuffled;
   };
-
+  //
   if (!question) {
     return null;
   }
