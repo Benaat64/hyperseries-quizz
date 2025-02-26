@@ -1,4 +1,4 @@
-# CECI ETAIT UN TEST TECHNIQUE EN 2H, VOICI LES CONSIGNES : [Voir le PDF](./public/TEST_ReactDev_2024.pdf)
+# Ceci était un TEST TECHNIQUE pour un stage en 2h, voici les consignes:  [Voir le PDF](./public/TEST_ReactDev_2024.pdf)
 
 # Hyperseries Quizz
 
