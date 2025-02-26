@@ -1,3 +1,5 @@
+# CECI ETAIT UN TEST TECHNIQUE EN 2H, VOICI LES CONSIGNES : [Voir le PDF](./public/TEST_ReactDev_2024.pdf)
+
 # Hyperseries Quizz
 
 ## Aperçu
